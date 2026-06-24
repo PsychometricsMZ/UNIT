@@ -1,0 +1,21 @@
+{
+  "title": "UNIT replication package: Representation Learning for Semiparametric Causal Mediation Analysis under No Essential Heterogeneity",
+  "description": "Reproduction code and frozen simulation data for the two-stage G-estimation study (UNIT) of structural mediation parameters under No Essential Heterogeneity, in which the Stage-1 mediator-CATE learner is varied across a four-rung ladder (Ridge, tuned Random Forest, neural T-learner, and TARNet) to isolate how Stage-1 learning drives Stage-2 efficiency. The package is frozen at 200 Monte-Carlo seeds per cell; scripts/verify.py confirms byte-for-byte reproduction of every table and figure. Released under the MIT License; vendors CATENets (BSD-3-Clause).",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "MIT",
+  "version": "1.0.0",
+  "creators": [
+    { "name": "Faleh, Roberto", "affiliation": "Methods Center, University of Tübingen, Germany" },
+    { "name": "Morelli, Sofia", "affiliation": "Methods Center, University of Tübingen, Germany" },
+    { "name": "Brandt, Holger", "affiliation": "Methods Center, University of Tübingen, Germany" }
+  ],
+  "keywords": [
+    "causal mediation",
+    "G-estimation",
+    "no essential heterogeneity",
+    "representation learning",
+    "TARNet",
+    "semiparametric inference"
+  ]
+}

@@ -91,3 +91,14 @@ This project is released under the MIT License (`LICENSE`). It vendors
 [CATENets](https://github.com/AliciaCurth/CATENets) under `third_party/catenets/`,
 which is distributed under the BSD-3-Clause License (see
 `third_party/catenets/LICENSE`).
+
+## Citation
+
+If you use this package, please cite the accompanying article and this archive
+(machine-readable metadata in `CITATION.cff`):
+
+> Faleh, R., Morelli, S., & Brandt, H. (2026). *Representation Learning for
+> Semiparametric Causal Mediation Analysis under No Essential Heterogeneity.*
+> Data Science and Artificial Intelligence.
+
+An archived release with a persistent DOI is available on Zenodo (DOI: _to be added_).
