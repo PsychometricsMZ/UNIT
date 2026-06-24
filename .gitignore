@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+*.swp
+
+# Generated outputs are committed as reference artifacts; regenerate with
+# scripts/make_tables.py and scripts/plot_stage1_quality.py.
