@@ -3,8 +3,7 @@
 Reproduction code and frozen data for the simulation study of two-stage
 G-estimation under no essential heterogeneity, where the Stage-1 CATE learner
 is varied across a four-rung ladder (Ridge → tuned Random Forest → neural
-T-learner → neural shared-representation learner / TARNet) to isolate **how the
-Stage-1 learner drives Stage-2 efficiency**.
+T-learner → neural shared-representation learner / TARNet).
 
 Everything needed to rebuild every table and figure in the paper from committed
 data is here. The package is **frozen at 200 seeds per cell** for all methods.
@@ -43,8 +42,7 @@ python scripts/verify.py                # check integrity + byte-for-byte reprod
 ```
 
 `verify.py` confirms (1) every committed per-seed record matches its recorded
-sha256 and (2) re-running `make_tables.py` reproduces the table artifacts
-exactly.
+sha256 and (2) re-running `make_tables.py` reproduces the table.
 
 ## Regenerating the raw data from scratch
 
@@ -70,14 +68,6 @@ python -m rpmdeep.studies.pool_tnet             # neural T-learner (separate arm
 The committed `results/pool_*/` directories are the first 200 seeds (by seed id)
 of these runs; `make_tables.py` deterministically consumes them.
 
-## The validity filter
-
-A seed contributes to a cell × method statistic only if its Stage-2 fit is
-valid — it is excluded otherwise (errored, Stage-2-skipped at NRMSE > 1.3 or
-degenerate τ̂, weakly identified, non-converged, non-finite, `|θ̂−θ| > 50`, or
-`SE > 2`). Point summaries are medians for bias and SE; coverage and NRMSE are
-means over valid rows. The filter is applied at aggregation time in
-`make_tables.py`, the single place that decides whether a seed counts.
 
 ## Dependencies
 
