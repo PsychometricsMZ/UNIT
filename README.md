@@ -99,6 +99,6 @@ If you use this package, please cite the accompanying article and this archive
 
 > Faleh, R., Morelli, S., & Brandt, H. (2026). *Representation Learning for
 > Semiparametric Causal Mediation Analysis under No Essential Heterogeneity.*
-> Data Science and Artificial Intelligence.
+> arXiv:2607.10540. https://arxiv.org/abs/2607.10540
 
 An archived release with a persistent DOI is available on Zenodo (DOI: _to be added_).

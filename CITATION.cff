@@ -27,7 +27,7 @@ keywords:
   - no essential heterogeneity
   - representation learning
   - TARNet
-repository-code: "https://github.com/<OWNER>/unit-replication"   # TODO: set after creating the repo
+repository-code: "https://github.com/PsychometricsMZ/UNIT"
 preferred-citation:
   type: article
   title: >-
@@ -40,5 +40,7 @@ preferred-citation:
       family-names: Morelli
     - given-names: Holger
       family-names: Brandt
-  journal: "Data Science and Artificial Intelligence"
-  year: 2026   # TODO: update on acceptance
+  journal: "arXiv preprint arXiv:2607.10540"
+  doi: "10.48550/arXiv.2607.10540"
+  url: "https://arxiv.org/abs/2607.10540"
+  year: 2026
